@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+} 
+ .main {
+    display: flex;
+}
+.content .title {
+    font-size: 25px;
+}
+
+  .card img {
+    width: 100%;
+    height: 400px;
+    align-content: space-around;
+}
+.btn {
+    width: 380px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.content p {
+    font-size: 20px;
+    /* color: brown; */
+}
+.card {
+    background-color: beige;
+    padding: 0 10px;
+    display: table;
+    box-shadow: 0 2px 4px 0 rgba(110, 57, 57, 0.2);
+}
+.btn:hover{
+    background-color: brown;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    }
